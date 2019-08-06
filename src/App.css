@@ -16,7 +16,9 @@ footer{
 .body{ 
   background: #03396c;
   text-align: center;
+  min-height: 100vh;
 }
+
 .sectionContainer{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -32,7 +34,6 @@ footer{
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 
 #bannerContainer{
   position: relative;
