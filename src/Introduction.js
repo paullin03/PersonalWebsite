@@ -8,7 +8,7 @@ class Introduction extends Component{
         return (
             <div>
                 <div id="bannerContainer">
-                    <img id="bannerImage" src={require("./images/StanleyLandscapeResize.png")}></img>
+                    <img id="bannerImage" alt="Paul Lin" src={require("./images/StanleyLandscapeResize.png")}></img>
                 </div>
                 
                 <div id="AboutMe" class="sectionContainer">          

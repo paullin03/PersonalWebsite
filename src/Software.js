@@ -18,7 +18,8 @@ class Software extends Component {
                         <li>Designed user interface for task entry in XML and utilized the Android Room Persistence Library to implement a database to store task entries</li>
                         <li>Collaborated and communicated with 3 others through GitHub and design meetings</li>
                     </ul>} href="https://github.com/paullin03/TaskOrganizer"
-                    src={[require("./images/TaskOrganizerSummary.jpg"), require("./images/TaskOrganizerEntry.jpg")]}/>
+                    src={[require("./images/TaskOrganizerSummary.jpg"), require("./images/TaskOrganizerEntry.jpg")]}
+                    descriptions={["Main Summary", "New Task Entry"]}/>
                 </Tab>
                 <Tab eventKey="foodCam" title="Food Cam">
                     <ProjectCard title="Food Cam" subtitle="Android App for scanning and reading nutrition labels"
@@ -29,7 +30,8 @@ class Software extends Component {
                         <li>Collaborated and communicated with 5 others to come up with design and divide tasks equally</li>
                     </ul>
                     } href="https://github.com/paullin03/foodcamera_xd2019" 
-                    src={[require("./images/FoodCamUse.jpg"), require("./images/FoodCamEntry.jpg"), require("./images/FoodCamSummary.jpg")]}/>
+                    src={[require("./images/FoodCamUse.jpg"), require("./images/FoodCamEntry.jpg"), require("./images/FoodCamSummary.jpg")]}
+                    descriptions={["Capture", "New Nutrition Entry", "Summary"]}/>
                 </Tab>
             </Tabs>
             </div>

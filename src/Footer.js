@@ -5,20 +5,22 @@ class Footer extends Component {
         return (
             <footer id="Contact">
                 <h4>Contact</h4>
-                <a class="footerLink" href="https://www.linkedin.com/in/paul-lin-3aa17b15a/" target="_blank">
-                    <img src={require("./images/linkedin.png")}/>
-                </a>
+                {getFooterItem("https://www.linkedin.com/in/paul-lin-3aa17b15a/", require("./images/linkedin.png"))}
 
-                <a class="footerLink" href="https://github.com/paullin03" target="_blank">
-                    <img src={require("./images/github.png")}/>
-                </a>
+                {getFooterItem("https://github.com/paullin03", require("./images/github.png"))}
 
-                <a class="footerLink" href="mailto:linpaul0328@gmail.com" target="_blank">
-                    <img src={require("./images/email.png")}/>
-                </a>
+                {getFooterItem("mailto:linpaul0328@gmail.com", require("./images/email.png"))}
             </footer>
         );
     }
+}
+
+function getFooterItem(href, src) {
+    return (
+        <a class="footerLink" href={href} target="_blank" rel="noopener noreferrer">
+            <img alt="" src={src}/>
+        </a>
+    );
 }
 
 export default Footer;
