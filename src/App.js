@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { createBrowserHistory } from 'history';
+import { createHashHistory } from 'history';
 import Introduction from './Introduction';
 import WorkExperience from './WorkExperience';
 import Software from './Software';
@@ -9,12 +9,11 @@ import Footer from './Footer';
 import {Router, Route, Link } from "react-router-dom";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 class App extends Component {
   render() {
-    const history = createBrowserHistory();
+    const history = createHashHistory();
     return (
       <div class="body">
         <Router history={history}>
@@ -38,9 +37,6 @@ class App extends Component {
             <Link to="/RelevantCourses">            
               Courses
             </Link>
-            <Nav.Link href="#Contact">
-              Contact
-            </Nav.Link>
           </Navbar>
           <Route path="/" exact component={Introduction} />
           <Route path="/WorkExperience/" component={WorkExperience} />
