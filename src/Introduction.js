@@ -20,6 +20,7 @@ class Introduction extends Component{
                             </Col>
                             <Col>
                                 <ul>
+                                    <h5>Technical</h5>
                                     <li>3rd year UBC Computer Engineering</li>
                                     <ul>
                                         <li>1 term of co-op experience</li>
@@ -30,8 +31,14 @@ class Introduction extends Component{
                                     </ul>
                                     <li>Low level-language experience</li>
                                     <ul>
-                                        <li>ARM assembly, x86 assembly, Verilog</li>
+                                        <li>C, ARM assembly, x86 assembly, Verilog</li>
                                     </ul>
+                                    <br/>
+                                    <h5>Interests</h5>
+                                    <li>Vancouver Canucks &#x1F3D2;</li>
+                                    <li>Rubik's Cube</li>
+                                    <li>Hiking + Running &#x1f97e; &#x1f3c3;</li>
+                                    <li>Ultimate Frisbee &#x1f94f;</li>
                                 </ul>
                             </Col>
                         </div>

@@ -14,9 +14,9 @@ class Hardware extends Component {
                     <ProjectCard title="Simple RISC Machine" subtitle="Turing-complete Machine"
                     text={
                     <ul>
-                        <li>Designed and coded a datapath (including register file, arithmetic logic unit, pipeline registers) and a finite-state machine controller for a Turing machine in Verilog</li>
+                        <li>Designed and coded a datapath (including register file, arithmetic logic unit, pipeline registers) and a finite-state machine controller for a Turing-complete machine in Verilog</li>
                         <li>Wrote test benches in Verilog and conducted simulations in ModelSim to verify correctness of modules</li>
-                        <li>Accomplished all required in-class elements, passing all auto-grader tests along with additional support for virtual functions</li>
+                        <li>Accomplished all required in-class elements, passing all auto-grader tests along with adding additional support for virtual functions</li>
                     </ul>
                     }/>
                 </Tab>
@@ -26,8 +26,8 @@ class Hardware extends Component {
                     <ul>
                         <li>Implemented a software cache in C</li>
                         <li>Implemented a FAT file system in C along with an optional component for interacting with filesystem through command line</li>
-                        <li>Simulated the operation of implicit free lists</li>
-                        <li>Created a instruction parser for x86</li>
+                        <li>Simulated the operation of implicit free lists for dynamic memory allocation</li>
+                        <li>Created an instruction parser for x86</li>
                     </ul>
                     }/>
                 </Tab>
