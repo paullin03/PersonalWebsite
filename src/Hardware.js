@@ -6,9 +6,9 @@ import Tabs from 'react-bootstrap/Tabs';
 class Hardware extends Component {
     render() {
         return (
-        <div id="Hardware" class="sectionContainer">
+        <div id="Hardware" className="sectionContainer">
             <h1>Hardware Projects</h1>
-            <div class="tabWrapper">
+            <div className="tabWrapper">
             <Tabs id="HardwareProjects" defaultActiveKey="RISCMachine" style={{color: "#black"}}>
                 <Tab eventKey="RISCMachine" title="Simple RISC Machine">
                     <ProjectCard title="Simple RISC Machine" subtitle="Turing-complete Machine"

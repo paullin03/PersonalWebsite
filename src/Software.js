@@ -6,9 +6,9 @@ import Tabs from 'react-bootstrap/Tabs';
 class Software extends Component {
     render() {
         return (
-        <div id="Software" class="sectionContainer">
+        <div id="Software" className="sectionContainer">
             <h1>Software Projects</h1>
-            <div class="tabWrapper">
+            <div className="tabWrapper">
             <Tabs id="SoftwareProjects" defaultActiveKey="taskOrganizer">
                 <Tab eventKey="taskOrganizer" title="Task Organizer">
                     <ProjectCard title="Task Organizer" subtitle="Android App for helping users prioritize their tasks"

@@ -11,10 +11,10 @@ class Introduction extends Component{
                     <img id="bannerImage" alt="Paul Lin" src={require("./images/StanleyLandscapeResize.png")}></img>
                 </div>
                 
-                <div id="AboutMe" class="sectionContainer">          
+                <div id="AboutMe" className="sectionContainer">          
                     <h1>About Me</h1>
                     <Container style={{background: "#b3cde0"}}>
-                    <div class="row align-items-center" id="aboutMeRow">
+                    <div className="row align-items-center" id="aboutMeRow">
                         <Col xs={4}>
                         <Image src={require("./images/PaulHeadShot.jpg")} fluid />             
                         </Col>

@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     const history = createHashHistory();
     return (
-      <div class="body">
+      <div className="body">
         <Router history={history}>
           <Navbar style={{background: "#011f4b"}} expand="lg" variant="dark" id="NavigationBar">
             <Link to="/">

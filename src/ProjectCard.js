@@ -9,7 +9,7 @@ function ProjectCard(props) {
                 {generateImages(props.src, props.descriptions)}
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{props.subtitle}</Card.Subtitle>
-                <Card.Text>
+                <Card.Text as="div">
                     {props.text}
                 </Card.Text>
                 {generateLink(props.href)}
@@ -29,7 +29,7 @@ function generateImages(images, descriptions) {
 
 function generateCarouselItems(images, descriptions) {
     return images.map((image, index) => {
-        return <Carousel.Item>
+        return <Carousel.Item key={descriptions[index]}>
             {generateCardImage(image)}
             {generateDescription(descriptions[index])}
         </Carousel.Item>;
@@ -47,7 +47,7 @@ function generateDescription(src) {
 function generateLink(href) {
     if (href) {
         return (
-        <a class="footerLink" href={href} target="_blank" rel="noopener noreferrer">
+        <a className="footerLink" href={href} target="_blank" rel="noopener noreferrer">
             <img alt="" src={require("./images/github.png")}/>
         </a>);
     } else {

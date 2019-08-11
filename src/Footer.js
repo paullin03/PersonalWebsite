@@ -17,7 +17,7 @@ class Footer extends Component {
 
 function getFooterItem(href, src) {
     return (
-        <a class="footerLink" href={href} target="_blank" rel="noopener noreferrer">
+        <a className="footerLink" href={href} target="_blank" rel="noopener noreferrer">
             <img alt="" src={src}/>
         </a>
     );
