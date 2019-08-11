@@ -14,7 +14,7 @@ class WorkExperience extends Component {
                     <Card.Subtitle className="mb-2 text-muted">Junior Software Developer</Card.Subtitle>
                     <Card.Subtitle className="mb-2 text-muted">May 2019 - December 2019 (8 months)</Card.Subtitle>
                     <Card.Text as="div">
-                        <ul style={{textAlign:"left"}}>
+                        <ul>
                         <li>Collaborating with a team in an Agile fashion with daily stand-up, retrospectives, and code-reviews</li>
                         <li>Writing production code in Java and carrying out testing by writing custom unit tests/manual testing</li>
                         <li>Formatting requests and parsing payloads for various REST/SOAP APIs (ex. GitHub, Jira)</li>

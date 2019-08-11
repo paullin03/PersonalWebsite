@@ -13,7 +13,7 @@ class RelevantCourses extends Component {
                 <Tab eventKey="CPSC 221" title="CPSC 221">
                     <ProjectCard title="Basic Algorithms and Data Structures" subtitle="Language: C++"
                     text={
-                    <ul style={{textAlign:"left"}}>
+                    <ul>
                         <h5>Topics</h5>
                         <li>Data structures such as heaps, AVL tree, stack, queues, graphs</li>
                         <li>Algorithms for trees and graphs (ex. Kruskal's, Prim's, tree traversals, BFS, DFS)</li>
@@ -28,7 +28,7 @@ class RelevantCourses extends Component {
                 <Tab eventKey="CPSC 261" title="CPSC 261">
                     <ProjectCard title="Basics of Computer Systems" subtitle="Languages: C, x86 Assembly"
                     text={
-                    <ul style={{textAlign:"left"}}>
+                    <ul>
                         <h5>Topics</h5>   
                         <li>x86 Assembly and CPU pipelining</li>
                         <li>Components of Operating Systems (cache, file system, dynamic memory allocation, virtual memory)</li>
@@ -41,7 +41,7 @@ class RelevantCourses extends Component {
                 <Tab eventKey="CPEN 211" title="CPEN 211">
                     <ProjectCard title="Introduction to Microcomputers" subtitle="Languages: Verilog, ARM Assembly"
                     text={
-                    <ul style={{textAlign:"left"}}>
+                    <ul>
                         <h5>Topics</h5>
                         <li>Finite State Machine Design (Moore and Mealy)</li>
                         <li>Combinational and Sequential Circuit Design</li>
@@ -56,7 +56,7 @@ class RelevantCourses extends Component {
                 <Tab eventKey="CPEN 221" title="CPEN 221">
                     <ProjectCard title="Principles of Software Construction" subtitle="Language: Java"
                     text={
-                    <ul style={{textAlign:"left"}}>
+                    <ul>
                         <h5>Topics</h5>
                         <li>Software Construction principles such as testing, data types, and specifications</li>
                         <li>Parallel and Concurrent Programming concepts such as fork-join parallelism, thread safety, and data races</li>
@@ -74,7 +74,7 @@ class RelevantCourses extends Component {
                 <Tab eventKey="CPEN 291" title="CPEN 291">
                     <ProjectCard title="Computer Engineering Design Studio" subtitle="Language: Python"
                     text={
-                    <ul style={{textAlign:"left"}}>                        
+                    <ul>                        
                         <h5>Projects</h5>
                         <li>Created a social media-esque music web app using Spotify's API to make recommendations based on your current mood</li>
                         <li>Constructed a line-following robot along with developing an Android app for controlling it</li>

@@ -13,7 +13,7 @@ class Software extends Component {
                 <Tab eventKey="taskOrganizer" title="Task Organizer">
                     <ProjectCard title="Task Organizer" subtitle="Android App for helping users prioritize their tasks"
                     text={
-                    <ul style={{textAlign:"left"}}>
+                    <ul>
                         <li>Developed an Android task organizer using Android Studio – organizes tasks to prioritize based on deadline, importance, and time commitment</li>
                         <li>Designed user interface for task entry in XML and utilized the Android Room Persistence Library to implement a database to store task entries</li>
                         <li>Collaborated and communicated with 3 others through GitHub and design meetings</li>
@@ -24,7 +24,7 @@ class Software extends Component {
                 <Tab eventKey="foodCam" title="Food Cam">
                     <ProjectCard title="Food Cam" subtitle="Android App for scanning and reading nutrition labels"
                     text={
-                    <ul style={{textAlign:"left"}}>
+                    <ul>
                         <li>Developed an Android app to take pictures of nutritional labels for automatic data entry</li>
                         <li>Designed user interface for manual label entry</li>
                         <li>Collaborated and communicated with 5 others to come up with design and divide tasks equally</li>

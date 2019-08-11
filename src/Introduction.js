@@ -14,16 +14,27 @@ class Introduction extends Component{
                 <div id="AboutMe" className="sectionContainer">          
                     <h1>About Me</h1>
                     <Container style={{background: "#b3cde0"}}>
-                    <div className="row align-items-center" id="aboutMeRow">
-                        <Col xs={4}>
-                        <Image src={require("./images/PaulHeadShot.jpg")} fluid />             
-                        </Col>
-                        <Col>
-                        I am currently a 3rd year student studying Computer Engineering at UBC, with 1 term of co-op work experience.
-                        I have experience with a both high-level languages such as Java, Python, and C++, as well as assembly languages like ARM
-                        and x86, along with Verilog.
-                        </Col>
-                    </div>
+                        <div className="row align-items-center" id="aboutMeRow">
+                            <Col xs={7} sm={5}>
+                                <Image src={require("./images/PaulHeadShot.jpg")} fluid />             
+                            </Col>
+                            <Col>
+                                <ul>
+                                    <li>3rd year UBC Computer Engineering</li>
+                                    <ul>
+                                        <li>1 term of co-op experience</li>
+                                    </ul>
+                                    <li>High level-language experience</li>
+                                    <ul>
+                                        <li>Java, Python, C++, JavaScript</li>
+                                    </ul>
+                                    <li>Low level-language experience</li>
+                                    <ul>
+                                        <li>ARM assembly, x86 assembly, Verilog</li>
+                                    </ul>
+                                </ul>
+                            </Col>
+                        </div>
                     </Container>
                 </div>
             </div>
