@@ -11,14 +11,14 @@ class WorkExperience extends Component {
                 <Card.Body>
                     <Card.Img variant="top" src={require("./images/tasktop.png")} style={{maxWidth: "80%", height: "auto", paddingBottom: "0.5rem"}}/>
                     <Card.Title>Tasktop Technologies</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Junior Software Developer{<br/>}May 2019 - December 2019 (8 months)</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted">Junior Software Engineer{<br/>}May 2019 - December 2019 (8 months)</Card.Subtitle>
                     <Card.Text as="div">
                         <ul>
                             <li>Collaborating with a team in an Agile fashion with daily stand-ups, retrospectives, and code-reviews</li>
                             <li>Writing production code in Java and carrying out testing by writing custom unit tests/manual testing</li>
                             <li>Formatting requests and parsing payloads for various REST/SOAP APIs (ex. GitHub, Jira)</li>
                             <li>Analyzing feasibility of features and providing an estimate of effort required</li>
-                            <li>Reviewing nightly builds and addressing test failures</li>
+                            <li>Maintaining codebase by addressing test failures on nightly builds, tech debts, and defects</li>
                         </ul>
                     </Card.Text>
                 </Card.Body>

@@ -37,7 +37,7 @@ function generateCarouselItems(images, descriptions) {
 }
 
 function generateCardImage(src) {
-    return <Card.Img variant="top" src={src} style={{width: "auto", maxHeight: "20rem"}}/>;
+    return <Card.Img variant="top" src={src} style={{width: "auto", maxHeight: "20rem", maxWidth: "80%"}}/>;
 }
 
 function generateDescription(src) {

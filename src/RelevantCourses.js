@@ -22,8 +22,9 @@ class RelevantCourses extends Component {
                         <li>Photo manipulation algorithms using self-implemented wrapped quadtree to represent an image</li>
                         <li>Fill algorithms for photos using self-implemented deque</li>
                         <li>Circular doubly-linked list implementation and algorithms</li>
-                    </ul>
-                    }/>
+                    </ul>}
+                    src={[require("./images/bfsrain.gif"), require("./images/dfsrain.gif")]}
+                    descriptions={["Sample BFS fill of an image of rain", "Sample DFS fill of an image of rain"]}/>
                 </Tab>
                 <Tab eventKey="CPSC 261" title="CPSC 261">
                     <ProjectCard title="Basics of Computer Systems" subtitle="Languages: C, x86 Assembly"

@@ -33,6 +33,17 @@ class Software extends Component {
                     src={[require("./images/FoodCamUse.jpg"), require("./images/FoodCamEntry.jpg"), require("./images/FoodCamSummary.jpg")]}
                     descriptions={["Capture", "New Nutrition Entry", "Summary"]}/>
                 </Tab>
+                <Tab eventKey="personalWebsite" title="Personal Website">
+                    <ProjectCard title="Personal Website" subtitle="Website to show off my personal projects and experiences"
+                    text={
+                    <ul>
+                        <li>Used a combination of React, HTML, and CSS to create an interactive website</li>
+                        <li>Designed intuitive user interface</li>
+                        <li>Unit tested all rendered components using Jest</li>
+                    </ul>
+                    } href="https://github.com/paullin03/Webpage" 
+                    src={[require("./images/website.png")]}/>
+                </Tab>
             </Tabs>
             </div>
         </div>
