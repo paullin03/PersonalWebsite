@@ -9,7 +9,7 @@ class RelevantCourses extends Component {
         <div id="RelevantCourses" className="sectionContainer">
             <h1>Relevant Courses</h1>
             <div className="tabWrapper">
-            <Tabs id="RelevantCouresesTabs" defaultActiveKey="CPSC 221" style={{color: "#black"}}>
+            <Tabs id="RelevantCoursesTabs" defaultActiveKey="CPSC 221" style={{color: "#black"}}>
                 <Tab eventKey="CPSC 221" title="CPSC 221">
                     <ProjectCard title="Basic Algorithms and Data Structures" subtitle="Language: C++"
                     text={
