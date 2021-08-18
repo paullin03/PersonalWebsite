@@ -7,16 +7,12 @@ class Introduction extends Component{
     render() {
         return (
             <div>
-                <div id="bannerContainer">
-                    <img id="bannerImage" alt="Stanley Park Landscape Header" src={require("./images/StanleyLandscapeResize.jpg")}></img>
-                </div>
-                
-                <div id="AboutMe" className="sectionContainer">          
+                <div id="AboutMe" className="sectionContainer">
                     <h1>About Me</h1>
                     <Container style={{background: "#b3cde0"}}>
                         <div className="row align-items-center" id="aboutMeRow">
                             <Col xs={7} sm={5}>
-                                <Image src={require("./images/PaulHeadShot.jpeg")} fluid />             
+                                <Image src={require("./images/PaulHeadShot.jpeg")} fluid />
                             </Col>
                             <Col>
                                 <ul>
