@@ -8,7 +8,7 @@ class Introduction extends Component{
         return (
             <div>
                 <div id="bannerContainer">
-                    <img id="bannerImage" alt="Paul Lin" src={require("./images/StanleyLandscapeResize.png")}></img>
+                    <img id="bannerImage" alt="Stanley Park Landscape Header" src={require("./images/StanleyLandscapeResize.jpg")}></img>
                 </div>
                 
                 <div id="AboutMe" className="sectionContainer">          
@@ -16,22 +16,29 @@ class Introduction extends Component{
                     <Container style={{background: "#b3cde0"}}>
                         <div className="row align-items-center" id="aboutMeRow">
                             <Col xs={7} sm={5}>
-                                <Image src={require("./images/PaulHeadShot.jpg")} fluid />             
+                                <Image src={require("./images/PaulHeadShot.jpeg")} fluid />             
                             </Col>
                             <Col>
                                 <ul>
+                                    <h2>Paul Lin</h2>
+                                    <br/>
                                     <h5>Technical</h5>
-                                    <li>3rd year UBC Computer Engineering</li>
+                                    <li>4th year UBC Computer Engineering</li>
                                     <ul>
-                                        <li>1 term of co-op experience</li>
+                                        <li>5 terms of work experience</li>
                                     </ul>
-                                    <li>High level-language experience</li>
+                                    <li>Expected Graduation Date: May 2022</li>
+                                    <li>High-level language experience</li>
                                     <ul>
                                         <li>Java, Python, C++, JavaScript</li>
                                     </ul>
-                                    <li>Low level-language experience</li>
+                                    <li>Low-level language experience</li>
                                     <ul>
-                                        <li>C, ARM assembly, x86 assembly, Verilog</li>
+                                        <li>C, ARM assembly, x86 assembly</li>
+                                    </ul>
+                                    <li>HDL experience</li>
+                                    <ul>
+                                        <li>Verilog</li>
                                     </ul>
                                     <br/>
                                     <h5>Interests</h5>

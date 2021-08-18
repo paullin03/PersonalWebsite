@@ -16,7 +16,7 @@ class Hardware extends Component {
                     <ul>
                         <li>Designed and coded a datapath (including register file, arithmetic logic unit, pipeline registers) and a finite-state machine controller for a Turing-complete machine in Verilog</li>
                         <li>Wrote test benches in Verilog and conducted simulations in ModelSim to verify correctness of modules</li>
-                        <li>Accomplished all required in-class elements, passing all auto-grader tests along with adding additional support for virtual functions</li>
+                        <li>Passed all auto-grader tests along with adding additional support for virtual functions</li>
                     </ul>
                     }/>
                 </Tab>
