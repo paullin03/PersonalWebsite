@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://paullin03.github.io/",
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^5.0.0",
     "react": "^16.14.0",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^16.14.0",
